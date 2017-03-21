@@ -130,7 +130,7 @@ execute 'highlight SpecialKey '   . s:magenta_fg
 execute 'highlight SpellBad '     . s:black_fg     . s:yellow_bg    . s:bold . s:none_sp
 execute 'highlight StatusLine '   . s:white_fg     . s:status_bg    . s:bold
 execute 'highlight StatusLineNC ' . s:blue_fg      . s:darkgray_bg  . s:bold
-execute 'highlight TabLine '      . s:white_fg     . s:darkgray_bg  . s:none
+execute 'highlight TabLine '      . s:white_fg     . s:lightgray_bg . s:none
 execute 'highlight TabLineFill '                   . s:white_bg     . s:none
 execute 'highlight TabLineSel '   . s:white_fg     . s:black_bg     . s:bold
 execute 'highlight Title '        . s:blue_fg                       . s:bold
