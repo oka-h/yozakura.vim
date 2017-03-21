@@ -112,7 +112,7 @@ execute 'highlight VertSplit '    . s:black_fg     . s:lightgray_bg . s:none
 execute 'highlight Folded '       . s:cyan_fg      . s:lightgray_bg
 execute 'highlight FoldColumn '   . s:white_fg     . s:none_bg
 execute 'highlight SignColumn '   . s:yellow_fg    . s:none_bg
-execute 'highlight IncSearch '    . s:white_fg     . s:yellow_bg    . s:bold
+execute 'highlight IncSearch '    . s:black_fg     . s:yellow_bg    . s:bold
 execute 'highlight LineNr '       . s:lightgray_fg
 execute 'highlight CursorLineNr ' . s:lightgray_fg                  . s:none
 execute 'highlight MatchParen '   . s:black_fg     . s:yellow_bg
