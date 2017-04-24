@@ -93,7 +93,7 @@ execute 'highlight Delimiter '    . s:white_fg
 execute 'highlight Underlined '   . s:magenta_fg                    . s:underline
 execute 'highlight Ignore '       . s:black_fg
 execute 'highlight Error '        . s:yellow_fg    . s:none_bg      . s:bold
-execute 'highlight Todo '         . s:black_fg     . s:yellow_bg    . s:bold
+execute 'highlight Todo '         . s:lightgray_fg . s:yellow_bg    . s:bold
 
 " Other highlight groups.
 execute 'highlight ColorColumn '                   . s:darkgray_bg
@@ -103,9 +103,9 @@ execute 'highlight CursorColumn '                  . s:darkgray_bg
 execute 'highlight CursorLine '                    . s:darkgray_bg  . s:none
 execute 'highlight Directory '    . s:magenta_fg
 execute 'highlight DiffAdd '      . s:white_fg     . s:blue_bg      . s:bold
-execute 'highlight DiffChange '   . s:black_fg     . s:magenta_bg   . s:bold
+execute 'highlight DiffChange '   . s:lightgray_fg . s:magenta_bg   . s:bold
 execute 'highlight DiffDelete '   . s:white_fg     . s:red_bg       . s:bold
-execute 'highlight DiffText '     . s:black_fg     . s:yellow_bg    . s:bold
+execute 'highlight DiffText '     . s:lightgray_fg . s:yellow_bg    . s:bold
 execute 'highlight EndOfBuffer '  . s:lightgray_fg
 execute 'highlight ErrorMsg '     . s:black_fg     . s:yellow_bg    . s:bold
 execute 'highlight VertSplit '    . s:black_fg     . s:lightgray_bg . s:none
@@ -127,7 +127,7 @@ execute 'highlight PmenuThumb '                    . s:darkgray_bg
 execute 'highlight Question '     . s:cyan_fg                       . s:bold
 execute 'highlight Search '       . s:black_fg     . s:yellow_bg    . s:bold
 execute 'highlight SpecialKey '   . s:magenta_fg
-execute 'highlight SpellBad '     . s:black_fg     . s:yellow_bg    . s:bold . s:none_sp
+execute 'highlight SpellBad '     . s:lightgray_fg . s:yellow_bg    . s:bold . s:none_sp
 execute 'highlight StatusLine '   . s:white_fg     . s:status_bg    . s:bold
 execute 'highlight StatusLineNC ' . s:blue_fg      . s:darkgray_bg  . s:bold
 execute 'highlight TabLine '      . s:white_fg     . s:lightgray_bg . s:none
