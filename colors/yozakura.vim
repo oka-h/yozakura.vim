@@ -124,3 +124,8 @@ highlight link SpellCap   SpellBad
 highlight link SpellLocal SpellBad
 highlight link SpellRare  SpellBad
 highlight link VisualNOS  Visual
+
+if hlexists('StatusLineTerm') && hlexists('StatusLineTermNC')
+    highlight! link StatusLineTerm StatusLine
+    highlight! link StatusLineTermNC StatusLineNC
+endif
